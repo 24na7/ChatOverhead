@@ -3,6 +3,9 @@
 A lightweight Paper plugin that displays player messages above their
 heads.
 
+## 🌧 Other README
+- [README Russian](https://github.com/24na7/ChatOverhead/blob/main/docs/readme/ru/README_RU.md)
+
 ## ✨ Features
 
 -   **Head-Attached Messages** - Messages stay attached to the player's
@@ -15,9 +18,9 @@ heads.
 
 ## 📸 Screenshots
 
-![ChatOverhead](docs/images/chat-overhead.png)
+![ChatOverhead](docs/image/head-1.png)
 
-![Message Animation](docs/images/message-animation.png)
+![Message Animation](docs/image/head-1.gif)
 
 ## ⚙️ Configuration
 
