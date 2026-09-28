@@ -1,0 +1,22 @@
+name: ChatOverhead
+version: '1.0'
+main: org.okunev.chatOverhead.ChatOverhead
+api-version: '1.21'
+authors: [ 24na7 ]
+website: "https://modrinth.com/user/24na7"
+description: Adds a player's message above their head, but in a more modern style using TextDisplay. Without using the old and outdated method via ArmorStand.
+commands:
+  chatoverhead:
+    description: Manage ChatOverhead
+    usage: /chatoverhead <add|remove|list|reload>
+    permission: chatoverhead.admin
+    aliases: [coh]
+  coh:
+    description: Manage ChatOverhead
+    usage: /coh <add|remove|list|reload>
+    permission: chatoverhead.admin
+
+permissions:
+  chatoverhead.admin:
+    description: Allows managing ChatOverhead
+    default: op

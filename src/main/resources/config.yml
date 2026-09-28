@@ -1,0 +1,28 @@
+# ChatOverhead Configuration
+
+# Language file located in plugins/ChatOverhead/lang/
+# Examples: ru_ru.yml, en_us.yml, de_de.yml
+lang: en_us.yml
+
+settings:
+  # Height of the text above the player's feet.
+  text-height: 2.4
+  # How many seconds the message remains visible.
+  display-seconds: 8
+  # Maximum message length before it is truncated.
+  max-text-length: 50
+  # Enable MiniMessage formatting.
+  use-minimessage: true
+  # Message format. Available placeholders:
+  # %message% - chat message
+  # %player%  - player name
+  gradient-format: "<gradient:#FFD700:#FFA500>%message%</gradient>"
+  # Strictly attach the overhead text to the player.
+  # true = no teleport/interpolation delay; recommended for F5/third-person.
+  # false = keep normal display interpolation behavior.
+  strict-attachment: true
+
+# List of players allowed to use overhead chat.
+# If empty, everyone is allowed.
+allowed-players:
+  - []

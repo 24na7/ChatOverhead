@@ -1,0 +1,22 @@
+# English language file
+# You can create your own language file by copying this file,
+# translating the values and setting lang: your_file.yml in config.yml.
+
+command:
+  no-permission: "<red>You do not have permission to use this command!</red>"
+  usage-add: "<red>Usage: /chatoverhead add <player></red>"
+  usage-remove: "<red>Usage: /chatoverhead remove <player></red>"
+  already-allowed: "<yellow>Player %player% is already on the allowed list!</yellow>"
+  added: "<green>Player %player% has been added to the allowed list!</green>"
+  not-found: "<yellow>Player %player% was not found on the allowed list!</yellow>"
+  removed: "<green>Player %player% has been removed from the allowed list!</green>"
+  list-empty: "<yellow>The allowed player list is empty.</yellow>"
+  list-header: "<gold>Allowed players:</gold>"
+  list-entry: "<white>• %player%</white>"
+  reloaded: "<green>Configuration reloaded!</green>"
+
+  help:
+    add: "<white>/chatoverhead add <player></white><gray> - Add a player to the allowed list</gray>"
+    remove: "<white>/chatoverhead remove <player></white><gray> - Remove a player from the allowed list</gray>"
+    list: "<white>/chatoverhead list</white><gray> - Show the allowed player list</gray>"
+    reload: "<white>/chatoverhead reload</white><gray> - Reload the configuration</gray>"

@@ -1,0 +1,22 @@
+# Russian language file
+# You can create your own language file by copying this file,
+# translating the values and setting lang: your_file.yml in config.yml.
+
+command:
+  no-permission: "<red>У вас нет прав на использование этой команды!</red>"
+  usage-add: "<red>Использование: /chatoverhead add <ник></red>"
+  usage-remove: "<red>Использование: /chatoverhead remove <ник></red>"
+  already-allowed: "<yellow>Игрок %player% уже в списке разрешённых!</yellow>"
+  added: "<green>Игрок %player% добавлен в список разрешённых!</green>"
+  not-found: "<yellow>Игрок %player% не найден в списке разрешённых!</yellow>"
+  removed: "<green>Игрок %player% удалён из списка разрешённых!</green>"
+  list-empty: "<yellow>Список разрешённых игроков пуст.</yellow>"
+  list-header: "<gold>Разрешённые игроки:</gold>"
+  list-entry: "<white>• %player%</white>"
+  reloaded: "<green>Конфигурация перезагружена!</green>"
+
+  help:
+    add: "<white>/chatoverhead add <ник></white><gray> - Добавить игрока в список</gray>"
+    remove: "<white>/chatoverhead remove <ник></white><gray> - Удалить игрока из списка</gray>"
+    list: "<white>/chatoverhead list</white><gray> - Показать список разрешённых игроков</gray>"
+    reload: "<white>/chatoverhead reload</white><gray> - Перезагрузить конфиг</gray>"
